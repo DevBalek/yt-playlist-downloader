@@ -1,10 +1,8 @@
-# youtubePlaylistDL
-
-Youtube Playlist Downloader MP3
+# Youtube Playlist Downloader MP3
 
 ### Requirements:
 
-#####**This script needs Python 3.4.1+**
+##### **This script needs Python 3.4.1+**
 
 ```bash
 $ pip3 install pytube
