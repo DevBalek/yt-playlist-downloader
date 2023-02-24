@@ -1,4 +1,4 @@
-# Youtube Playlist Downloader MP3
+# Youtube Playlist Downloader MP3/MP4
 
 ### Requirements:
 
