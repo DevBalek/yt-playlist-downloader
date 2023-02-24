@@ -1,8 +1,8 @@
 # youtubePlaylistDL
-A simple script to download all videos in a youtube playlist (720p quality)
+
+Youtube Playlist Downloader MP3
 
 ### Requirements:
-
 
 #####**This script needs Python 3.4.1+**
 
@@ -12,19 +12,34 @@ $ pip3 install pytube
 
 ### Usage:
 
+## For mp3
+
 ```bash
-$ python ytPlaylistDL.py <playlistURL>
+$ python ytDownloader-mp3.py <playlistURL>
 ```
+
 ```bash
-$ python ytPlaylistDL.py <playlistURL> <destinationPath>
+$ python ytDownloader-mp3.py <playlistURL> <destinationPath>
+```
+
+## For mp4
+
+```bash
+$ python ytDownloader-mp4.py <playlistURL>
+```
+
+```bash
+$ python ytDownloader-mp4.py <playlistURL> <destinationPath>
 ```
 
 ### Example:
+
 ---
-Say I'd like to download all videos in the playlist "FOMH 2015" (a music channel I like on youtube), found at URL 
+
+Say I'd like to download all videos in the playlist "uvise" (a music channel I like on youtube), found at URL
 https://www.youtube.com/playlist?list=PLVJcUspOFG-Np-YotXlPviRUK_MKyvwId, and put them in a music folder named
-~/Music/FOMH. This is how I would do that:
+~/uvise/music. This is how I would do that:
 
 ```bash
-$ python ytPlaylistDL.py https://www.youtube.com/playlist?list=PLVJcUspOFG-Np-YotXlPviRUK_MKyvwId ~/Music/FOMH
+$ python ytDownloader-mp3.py https://www.youtube.com/playlist?list=PLVJcUspOFG-Np-YotXlPviRUK_MKyvwId ~/uvise/music
 ```
